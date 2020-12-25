@@ -1,0 +1,182 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(245, 231, 214);
+    font-family: sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 900;
+    color: rgb(78, 78, 255);
+}
+
+h2{
+    color: cornflowerblue;
+    padding-top: 5em;
+}
+    
+#headers{
+    padding: 3em 0 1.2em 0;
+}
+
+a{
+    color: black;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+}
+#a{
+    text-align: center;
+}
+p{
+    display: inline;
+}
+#a1{
+    margin: 0 1em 0 4em;
+}
+#a3{
+    margin: 0 3em;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 4em;
+}
+#a4{
+    margin-left: 2em;
+}
+#menu{
+    text-align: right;
+    padding: 2em 3em;
+}
+#p2{
+    display: inline-block;
+    transform: rotate(-30deg);
+}
+#sf{
+    margin: 3.5em 0 3em 39.5em;
+}
+.low{
+    margin-top: 5em;
+}
+
+#foot{
+    margin-top: 8em;
+}
+#p1{
+    margin-right: 65vw;
+}
+
+#cercnavy{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: royalblue;
+    top: 20em;
+left: 10vw;
+}
+#semicercalbastru{
+    position: absolute;
+    height:11em;
+    width: 22em;
+    border-radius: 22em 22em 0 0;
+    background:cornflowerblue;
+    top: 23em;
+    left: -2em;
+    transform: rotate(30deg);
+  }
+ #cercgalben1{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: gold;
+    top: 6em;
+    left: 4em;
+    z-index: 2;
+ }
+#semicercrosu1{
+    position: absolute;
+    height:9em;
+    width: 18em;
+    border-radius: 18em 18em 0 0;
+    background-color: tomato;
+    transform: rotate(140deg);
+    top: 4em;
+    left: -2em;
+    z-index: 1;
+}
+#cercalbastru{
+    position: absolute;
+    height: 14em;
+    width: 14em;
+    border-radius: 50%;
+    background-color: royalblue;
+    top: -9em;
+    left: 38vw;
+}
+#bordergalben{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 130px; 
+    border-top-right-radius: 130px;
+    border: 30px solid gold;
+    border-bottom: 0;
+    top: 0;
+    right: 18em;
+    transform: rotate(20deg);
+}
+#semicercrosu2{
+    position: absolute;
+    height:6em;
+    width: 12em;
+    border-radius: 12em 12em 0 0;
+    background-color: tomato;
+    bottom: 2em;
+    right: 23em;
+    transform: rotate(200deg);
+}
+#cercgalben2{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: gold;
+    bottom: 10em;
+    right: -2em;
+    z-index: 2;
+}
+#semicercnavy{
+    position: absolute;
+    height:6em;
+    width: 12em;
+    border-radius: 12em 12em 0 0;
+    background-color:royalblue;
+    bottom: 18em;
+    right: -4em;
+    z-index: 1;
+    transform: rotate(80deg);
+}
+#borderalbastru{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 70px; 
+    border-top-right-radius: 70px;
+    border: 20px solid cornflowerblue;
+    border-bottom: 0;
+    bottom: 9em;
+    right: 15em;
+    transform: rotate(40deg);
+}
